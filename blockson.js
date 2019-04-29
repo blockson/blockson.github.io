@@ -21,7 +21,7 @@ var Module=typeof Module!=="undefined"?Module:{};var moduleOverrides={};var key;
 	var DOWNLOAD_ATTEMPTS_MAX = 4;
 
 	var basePath = null;
-	var wasmFilenameExtensionOverride = null;
+	var wasmFilenameExtensionOverride = '.notwasm';
 	var engineLoadPromise = null;
 
 	var loadingFiles = {};
